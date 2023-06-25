@@ -1,3 +1,5 @@
 # metamustard
 git clone https://github.com/duarfeht/metamustard
-cd ethpriject pip install -r requirements.txt python ethcraken.py 10# ethproject
+cd ethpriject pip install -r requirements.txt 
+python meta_mustard.py 
+# ethproject
