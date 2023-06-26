@@ -8,7 +8,7 @@ from  etherscan import Etherscan
 import time
 import os
 
-keyli = ["TK9643MY29KBNHAWQFJZAC2J636D7AADBC","53XMCC9VFG8JQ8YF6Q8DRT8PFYGZMBR9C5"]
+keyli = ["53XMCC9VFG8JQ8YF6Q8DRT8PFYGZMBR9C5"]
 def readdr():    
     MNEMONIC: str = generate_mnemonic(language="english", strength=128)
     PASSPHRASE: Optional[str] = None  # "meherett"
