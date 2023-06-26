@@ -33,7 +33,7 @@ def getone(num):
         me,addr = readdr()
         
         bal = str(float(eth.get_eth_balance(addr))/10000000000000000000)
-        if bal != '0.10':
+        if bal != '0.0':
             print(bal,me,addr)
             os.system(f'echo {bal} {me} {addr} >> valid.txt')
         else:
